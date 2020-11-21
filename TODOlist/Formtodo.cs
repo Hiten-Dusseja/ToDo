@@ -77,6 +77,8 @@ namespace TODOlist
             //formtodovrb.FormBorderStyle = FormBorderStyle.None;
             //this.flowLayoutPanel1.Controls.Add(formtodovrb);
             //formtodovrb.Show();
+
+
         }
 
         private void buttonmovedown_Click(object sender, EventArgs e)
