@@ -18,7 +18,7 @@ namespace TODOlist
         {
             InitializeComponent();
         }
-
+        int i = 0;
         private void Formtodo_Load(object sender, EventArgs e)
         {
 
@@ -59,18 +59,34 @@ namespace TODOlist
             //                                              // this is just for fun:
             ////p.Paint += (ss, ee) => { ee.Graphics.DrawString(p.Name, Font, Brushes.White, 22, 11); };
             //todotaskpanel.Invalidate();
-             int i= 2;
+         
 
 
+            //Panel temp = new Panel();
+            //temp = this.todotaskpanel;
+            ////Controls.Add(temp);
+            ////  Panel temp1 = new Panel();
+            //temp.Location = new Point(i, 200 + i);
+            //this.Controls.Add(temp);
             Panel temp = new Panel();
-            temp = this.todotaskpanel;
-            Controls.Add(temp);
-            //  Panel temp1 = new Panel();
-            temp.Location = new Point(i, 200 + i);
+            temp.Location = new Point(-10, 120 + i);
+            i = 70;
+            temp.Width = 1030;
+            temp.Height = 80;
             this.Controls.Add(temp);
+            temp.Show();
 
+            //this.panel1.Controls.Clear();
+            //Form2 formtodovrb = new Form2() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            //formtodovrb.FormBorderStyle = FormBorderStyle.None;
+            //this.panel1.Controls.Add(formtodovrb);
+            //formtodovrb.Show();
 
-
+            temp.Controls.Clear();
+            Form2 formtodovrb1 = new Form2() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            formtodovrb1.FormBorderStyle = FormBorderStyle.None;
+            temp.Controls.Add(formtodovrb1);
+            formtodovrb1.Show();
 
             //this.flowLayoutPanel1.Controls.Clear();
             //Formtodo formtodovrb = new Formtodo() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
@@ -86,8 +102,14 @@ namespace TODOlist
 
         }
 
-      
+        private void buttonmovedown_Click_1(object sender, EventArgs e)
+        {
 
-       
+        }
+
+        private void buttonmoveup_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

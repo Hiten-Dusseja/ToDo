@@ -95,11 +95,12 @@
             this.buttonmovedown.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(108)))), ((int)(((byte)(141)))));
             this.buttonmovedown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonmovedown.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonmovedown.Location = new System.Drawing.Point(40, 34);
+            this.buttonmovedown.Location = new System.Drawing.Point(42, 28);
             this.buttonmovedown.Name = "buttonmovedown";
-            this.buttonmovedown.Size = new System.Drawing.Size(33, 43);
+            this.buttonmovedown.Size = new System.Drawing.Size(25, 32);
             this.buttonmovedown.TabIndex = 8;
             this.buttonmovedown.UseVisualStyleBackColor = false;
+            this.buttonmovedown.Click += new System.EventHandler(this.buttonmovedown_Click_1);
             // 
             // buttonmoveup
             // 
@@ -111,11 +112,12 @@
             this.buttonmoveup.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(108)))), ((int)(((byte)(141)))));
             this.buttonmoveup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonmoveup.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonmoveup.Location = new System.Drawing.Point(40, 3);
+            this.buttonmoveup.Location = new System.Drawing.Point(42, 3);
             this.buttonmoveup.Name = "buttonmoveup";
-            this.buttonmoveup.Size = new System.Drawing.Size(33, 40);
+            this.buttonmoveup.Size = new System.Drawing.Size(25, 32);
             this.buttonmoveup.TabIndex = 7;
             this.buttonmoveup.UseVisualStyleBackColor = false;
+            this.buttonmoveup.Click += new System.EventHandler(this.buttonmoveup_Click);
             // 
             // labeltask
             // 

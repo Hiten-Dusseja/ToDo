@@ -106,11 +106,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.ClientSize = new System.Drawing.Size(1055, 101);
+            this.ClientSize = new System.Drawing.Size(1055, 96);
             this.Controls.Add(this.todotaskpanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.todotaskpanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.todobar)).EndInit();
             this.ResumeLayout(false);
