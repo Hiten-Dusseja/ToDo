@@ -28,6 +28,7 @@ namespace TODOlist
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
         }
         private void resetbuttons()
         {
@@ -58,6 +59,7 @@ namespace TODOlist
         {
             resetbuttons();
             doingbutton.BackColor = Color.FromArgb(81, 108, 141);
+            this.formloaderpanel.Controls.Clear();
         }
 
         private void donebutton_Click(object sender, EventArgs e)
@@ -72,7 +74,22 @@ namespace TODOlist
             progressbutton.BackColor = Color.FromArgb(81, 108, 141);
         }
 
-      
+        private void delete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void movetodone_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void delete_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+
 
         //private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         //{

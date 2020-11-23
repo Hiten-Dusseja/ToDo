@@ -149,7 +149,7 @@
             // 
             this.formloaderpanel.Location = new System.Drawing.Point(273, 2);
             this.formloaderpanel.Name = "formloaderpanel";
-            this.formloaderpanel.Size = new System.Drawing.Size(1056, 713);
+            this.formloaderpanel.Size = new System.Drawing.Size(1078, 713);
             this.formloaderpanel.TabIndex = 4;
             // 
             // Form1
@@ -158,7 +158,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.ClientSize = new System.Drawing.Size(1331, 719);
+            this.ClientSize = new System.Drawing.Size(1355, 723);
             this.Controls.Add(this.formloaderpanel);
             this.Controls.Add(this.navpanel);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
