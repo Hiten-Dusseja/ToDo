@@ -40,6 +40,9 @@ namespace TODOlist
 
         }
 
-      
+        private void todotaskbar1_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
