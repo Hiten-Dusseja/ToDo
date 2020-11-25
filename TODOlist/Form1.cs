@@ -14,16 +14,10 @@ namespace TODOlist
 {
     public partial class Form1 : Form
     {
-        //private Button currentBtn;
-        //private Panel leftBorderBtn;
-        //private Form currentChildForm;
 
         public Form1()
         {
             InitializeComponent();
-            //leftBorderBtn = new Panel();
-            //leftBorderBtn.Size = new Size(7, 60);
-            //dashboardpanel.Controls.Add(leftBorderBtn);
         }
 
         private void Form1_Load(object sender, EventArgs e)

@@ -59,45 +59,5 @@ namespace TODOlist.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Collapse_Arrow_colored {
-            get {
-                object obj = ResourceManager.GetObject("Collapse_Arrow_colored", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Collapse_Arrow_colored1 {
-            get {
-                object obj = ResourceManager.GetObject("Collapse_Arrow_colored1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Collapse_Arrow_colored2 {
-            get {
-                object obj = ResourceManager.GetObject("Collapse_Arrow_colored2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Expand_Arrow_colored {
-            get {
-                object obj = ResourceManager.GetObject("Expand_Arrow_colored", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
