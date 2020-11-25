@@ -23,21 +23,25 @@ namespace TODOlist
         {
 
         }
-
+        todotaskbar[] todotaskbaritems = new todotaskbar[15];
 
         private void buttondeleteall_Click(object sender, EventArgs e)
         {
             todotaskspanel.Controls.Clear();
+            
             todotaskbar todotaskbaritems = new todotaskbar();
             todotaskspanel.Controls.Add(todotaskbaritems);
+
 
         }
- 
+        int i = 0;
+
         private void buttonadd_Click(object sender, EventArgs e)
         {
-            todotaskbar todotaskbaritems = new todotaskbar();
-            todotaskspanel.Controls.Add(todotaskbaritems);
-
+          
+            todotaskbaritems[i] = new todotaskbar();
+            todotaskspanel.Controls.Add(todotaskbaritems[i]);
+            i++;
         }
 
         private void todotaskbar1_Load(object sender, EventArgs e)

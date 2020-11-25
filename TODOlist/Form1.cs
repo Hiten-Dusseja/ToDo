@@ -14,10 +14,16 @@ namespace TODOlist
 {
     public partial class Form1 : Form
     {
+        //private Button currentBtn;
+        //private Panel leftBorderBtn;
+        //private Form currentChildForm;
 
         public Form1()
         {
             InitializeComponent();
+            //leftBorderBtn = new Panel();
+            //leftBorderBtn.Size = new Size(7, 60);
+            //dashboardpanel.Controls.Add(leftBorderBtn);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -54,6 +60,10 @@ namespace TODOlist
             resetbuttons();
             doingbutton.BackColor = Color.FromArgb(81, 108, 141);
             this.formloaderpanel.Controls.Clear();
+            formdoing formdoingvrb = new formdoing() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            formdoingvrb.FormBorderStyle = FormBorderStyle.None;
+            this.formloaderpanel.Controls.Add(formdoingvrb);
+            formdoingvrb.Show();
         }
 
         private void donebutton_Click(object sender, EventArgs e)
@@ -85,7 +95,10 @@ namespace TODOlist
 
 
 
-        
+        //private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        //{
+
+        //}
 
 
     }

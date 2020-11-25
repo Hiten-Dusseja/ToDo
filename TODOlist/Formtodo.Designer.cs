@@ -46,10 +46,10 @@
             this.buttonadd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonadd.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonadd.Location = new System.Drawing.Point(656, 0);
-            this.buttonadd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonadd.Location = new System.Drawing.Point(875, 0);
+            this.buttonadd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonadd.Name = "buttonadd";
-            this.buttonadd.Size = new System.Drawing.Size(46, 49);
+            this.buttonadd.Size = new System.Drawing.Size(61, 60);
             this.buttonadd.TabIndex = 1;
             this.buttonadd.UseVisualStyleBackColor = false;
             this.buttonadd.Click += new System.EventHandler(this.buttonadd_Click);
@@ -64,10 +64,10 @@
             this.buttondeleteall.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttondeleteall.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttondeleteall.ForeColor = System.Drawing.Color.Transparent;
-            this.buttondeleteall.Location = new System.Drawing.Point(718, 0);
-            this.buttondeleteall.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttondeleteall.Location = new System.Drawing.Point(957, 0);
+            this.buttondeleteall.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttondeleteall.Name = "buttondeleteall";
-            this.buttondeleteall.Size = new System.Drawing.Size(45, 46);
+            this.buttondeleteall.Size = new System.Drawing.Size(60, 57);
             this.buttondeleteall.TabIndex = 6;
             this.buttondeleteall.UseVisualStyleBackColor = false;
             this.buttondeleteall.Click += new System.EventHandler(this.buttondeleteall_Click);
@@ -76,37 +76,37 @@
             // 
             this.todotaskspanel.AutoScroll = true;
             this.todotaskspanel.Controls.Add(this.todotaskbar1);
-            this.todotaskspanel.Location = new System.Drawing.Point(2, 64);
-            this.todotaskspanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.todotaskspanel.Location = new System.Drawing.Point(3, 79);
+            this.todotaskspanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.todotaskspanel.Name = "todotaskspanel";
-            this.todotaskspanel.Size = new System.Drawing.Size(781, 505);
+            this.todotaskspanel.Size = new System.Drawing.Size(1041, 622);
             this.todotaskspanel.TabIndex = 7;
             // 
             // todotaskbar1
             // 
             this.todotaskbar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.todotaskbar1.Location = new System.Drawing.Point(2, 2);
-            this.todotaskbar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.todotaskbar1.Location = new System.Drawing.Point(3, 2);
+            this.todotaskbar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.todotaskbar1.Name = "todotaskbar1";
-            this.todotaskbar1.Size = new System.Drawing.Size(775, 64);
+            this.todotaskbar1.Size = new System.Drawing.Size(1033, 79);
             this.todotaskbar1.TabIndex = 0;
             this.todotaskbar1.Load += new System.EventHandler(this.todotaskbar1_Load);
             // 
             // Formtodo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.ClientSize = new System.Drawing.Size(792, 579);
+            this.ClientSize = new System.Drawing.Size(1056, 713);
             this.Controls.Add(this.todotaskspanel);
             this.Controls.Add(this.buttondeleteall);
             this.Controls.Add(this.buttonadd);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Formtodo";
             this.Text = "   ";
             this.Load += new System.EventHandler(this.Formtodo_Load);

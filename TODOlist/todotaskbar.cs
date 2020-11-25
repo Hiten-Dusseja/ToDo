@@ -36,6 +36,9 @@ namespace TODOlist
                 {
                     timer1.Stop();
                     isCollapsed = false;
+                    vScrollBar1.Visible = true;
+                    taskactionpanel.AutoScroll = true;
+                    taskactionpanel.HorizontalScroll.Enabled = false;
                 }
             }
             else
@@ -46,6 +49,9 @@ namespace TODOlist
                 {
                     timer1.Stop();
                     isCollapsed = true;
+                    isCollapsed = true;
+                    vScrollBar1.Visible = false;
+                    taskactionpanel.AutoScroll = false;
                 }
             }
 
@@ -53,7 +59,7 @@ namespace TODOlist
 
         private void moveto_Click(object sender, EventArgs e)
         {
-            timer1.Start();
+            
         }
 
         private void textBox1_Leave(object sender, EventArgs e)
@@ -76,8 +82,23 @@ namespace TODOlist
 
         private void todobar_Click(object sender, EventArgs e)
         {
-            
-           
+
+
+        }
+
+       
+
+        private void mvdoingbtn_Click(object sender, EventArgs e)
+        {
+
+            timer1.Start();
+            taskactionpanel.HorizontalScroll.Enabled = false;
+            taskactionpanel.HorizontalScroll.Visible = false;
+        }
+
+        private void mvdonebtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

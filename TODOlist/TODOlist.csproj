@@ -47,11 +47,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Button_WOC.cs" />
+    <Compile Include="doingtaskbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="doingtaskbar.Designer.cs">
+      <DependentUpon>doingtaskbar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formdoing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formdoing.Designer.cs">
+      <DependentUpon>formdoing.cs</DependentUpon>
     </Compile>
     <Compile Include="Formtodo.cs">
       <SubType>Form</SubType>
@@ -76,8 +88,14 @@
     <Compile Include="todotaskbar.Designer.cs">
       <DependentUpon>todotaskbar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="doingtaskbar.resx">
+      <DependentUpon>doingtaskbar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formdoing.resx">
+      <DependentUpon>formdoing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formtodo.resx">
       <DependentUpon>Formtodo.cs</DependentUpon>
